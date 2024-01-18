@@ -12,7 +12,7 @@ import { TodoModule } from './todo/todo.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb://atlas-sql-65a936f4f08575438ad12704-cyqnw.a.query.mongodb.net/anhtt?ssl=true&authSource=admin',
+      'mongodb+srv://nbducdev:SmEynissPN6WXtfc@cluster0.wc9yw7i.mongodb.net/anhtt',
     ),
     UserModule,
     AuthModule,
